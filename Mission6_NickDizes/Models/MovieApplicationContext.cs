@@ -8,6 +8,7 @@ namespace Mission6_NickDizes.Models
         { 
         }
 
-        public DbSet<Application> Applications { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
